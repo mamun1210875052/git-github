@@ -1,5 +1,4 @@
 # Git Commands
-==============
 
 ### configaration & initialize
 
@@ -20,8 +19,14 @@
 | `git remote add origin [url]` | connect to remote reposatory |
 | `git push -u origin main` | push code to remote repoosatory |
 
+
 ## resolve problem
 | problem | solution |
 | ------- | -------- |
 | git push origin main -> remote: Permission to [url]  fatal: unable to access [url] | ControlPanel->Credential Manager ->   Windows Credentials ->  remove github username and password |
 | failed to push some refs to | `git push -u origin main -f` |
+
+
+## basic command
+| command | Description |
+|
