@@ -54,6 +54,7 @@
 
 ## .gitignore file
 | .gitignore | Details |
+| ---------- | ------- |
 | test.txt | ignore test.txt file |
 | *.txt | ignore all .txt file |
 | !main.txt | ignore .txt file without main.txt file |
