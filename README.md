@@ -31,6 +31,7 @@
 | command | Description |
 | ------- | ----------- |
 | `git status` | details about files situation |
+| `git add [fileName]` | a specifiq file to stage area |
 | `git add -a` | all file in directory and subdirectory to stage area |
 | `git add .` | all file in directory without subdirectory to stage area |
 | `git add *.js` | all .js file in directory without subdirectory to stage area |
