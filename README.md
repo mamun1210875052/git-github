@@ -23,10 +23,10 @@
 ## resolve problem
 | problem | solution |
 | ------- | -------- |
-| git push origin main <br>
- remote: Permission to [url] <br>
- fatal: unable to access [url] | Control Panel -> Credential Manager -> <br>
-                                Windows Credentials -> <br>
+| git push origin main 
+ remote: Permission to [url] 
+ fatal: unable to access [url] | Control Panel -> Credential Manager -> 
+                                Windows Credentials -> 
                                 remove github username and password |
 
 | failed to push some refs to | `git push -u origin main -f` | 
