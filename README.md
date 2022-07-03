@@ -36,4 +36,5 @@
 | `git add .` | all file in directory without subdirectory to stage area |
 | `git add *.js` | all .js file in directory without subdirectory to stage area |
 | `git add **/*.js` | all .js file in directory and subdirectory to stage area |
+| `git restore --staged [fileName]` | stage to unstage |
 
