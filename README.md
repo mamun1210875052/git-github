@@ -2,7 +2,7 @@
 
 ### configaration & initialize
 
-| Command | Description |
+| Command | Details |
 | ------- | ----------- |
 | `git config --global user.name "username"` | set username |
 | `git config --global user.email "email"` | set email |
@@ -11,7 +11,7 @@
 
 ### begin to push remote reposatory
 
-| Command | Description |
+| Command | Details |
 | ------- | ----------- |
 | `git add .` | add all file to staging area |
 | `git commit -m "[commit message]"` | file staging area to local reposatory |
@@ -28,7 +28,7 @@
 
 
 ## staging and unstaging
-| command | Description |
+| command | Details |
 | ------- | ----------- |
 | `git status` | details about files situation |
 | `git add [fileName]` | a specifiq file to stage area |
@@ -37,5 +37,20 @@
 | `git add *.js` | all .js file in directory without subdirectory to stage area |
 | `git add **/*.js` | all .js file in directory and subdirectory to stage area |
 | `git restore --staged [fileName]` | stage to unstage |
+|`git diff` | What is modified |
 | `git restore [fileName]` | modified to unmodified |
+
+## commit and uncommit
+| command | Details |
+| ------- | ------- |
+| `git commit -m "[commit message]"` | file staging area to local reposatory |
+| `git log` | commit history |
+| `git log --oneline` | summury commit history |
+| `git show [commit-id]` | details of this commit |
+| `git checkout [commit-id]` | move HEAD to specifiq commit |
+| `git reset --soft HEAD^` | local repo to staging area |
+| `git reset HEAD^` | local repo to unstaging area |
+| `git reset --hard HEAD^` | local repo to previous commit |
+
+## gitignore file
 
