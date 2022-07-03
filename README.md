@@ -52,5 +52,10 @@
 | `git reset HEAD^` | local repo to unstaging area |
 | `git reset --hard HEAD^` | local repo to previous commit |
 
-## gitignore file
-
+## .gitignore file
+| .gitignore | Details |
+| test.txt | ignore test.txt file |
+| *.txt | ignore all .txt file |
+| !main.txt | ignore .txt file without main.txt file |
+| test?.txt | ignore (text1.txt/text2.txt/text3.txt...) type file |
+| temp/ | ingone all in temp directory | 
